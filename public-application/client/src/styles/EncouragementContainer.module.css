@@ -1,0 +1,39 @@
+.container {
+  font-family: "Roboto", sans-serif;
+  margin: auto;
+  width: 60%;
+  margin-top: 0.5em;
+  border-radius: 15px;
+  padding: 15px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+
+.container > .uppercontainer {
+  border-bottom: solid black 1px;
+  font-weight: bold;
+  padding: 0.4em;
+  font-size: 1.4em;
+}
+
+.container > .lowercontainer {
+  text-align: center;
+  padding: 1.2em;
+  font-size: 1.2em;
+}
+
+.lowercontainer > button{
+  font-size: 1.2em;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    .container{
+      width: 90%;
+    }
+}
+
+

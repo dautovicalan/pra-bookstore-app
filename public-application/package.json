@@ -1,0 +1,27 @@
+{
+  "name": "pra-project",
+  "version": "1.0.0",
+  "description": "Projekt za PRA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alan Dautovic",
+  "license": "MIT",
+  "dependencies": {
+    "@coreui/coreui": "^4.1.5",
+    "@coreui/react": "^4.2.0",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.1.3",
+    "config": "^3.3.7",
+    "express": "^4.17.3",
+    "express-validator": "^6.14.0",
+    "firebase-admin": "^10.2.0",
+    "gravatar": "^1.8.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.4",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.16",
+    "request": "^2.88.2"
+  }
+}

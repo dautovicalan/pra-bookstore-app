@@ -1,0 +1,36 @@
+
+  
+  .contact_container > h1 {
+    padding-top: 0.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    user-select: none;
+  }
+  
+  .form_container {
+    background-color: white;
+    position: relative;
+    padding: 1.5em;
+    border-radius: 0.5em;
+    border: 2px solid rgb(13, 25, 80);
+    width: 66%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+  }
+  
+  
+  @media all and (max-width: 760px) {
+    .contact_container > h1 {
+      text-align: center;
+      margin-bottom: 1em;
+    }
+    .form_container {
+      width: 95%;
+    }
+  }
+  
