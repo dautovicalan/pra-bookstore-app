@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://admin:admin@praproject.lipuo.mongodb.net/?retryWrites=true&w=majority",
+    "jwtSecret": "volimknjizare"
+}
